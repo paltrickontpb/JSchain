@@ -1,2 +1,2 @@
 # JSchain
-Blockchain built completely on Javascript, with PoW. Fututre plans for PoS and PoET
+Blockchain built completely on Javascript, with PoW. Future plans include suport for PoS and PoET
