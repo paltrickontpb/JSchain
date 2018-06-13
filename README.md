@@ -22,6 +22,7 @@ Api.js - For expressJS based rest API.
 SHA256  
 ExpressJS  
 Body-Parser  
+PassportJS  
 
 ## Algorithms implemented
 

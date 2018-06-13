@@ -16,7 +16,7 @@ app.get('/blockchain', function(req,res){
 });
 
 app.post('/transaction', function(req,res){
-    const blockIndex = bticoin.createNewTransaction(req.body.amount, req.body.sender, req.body.recipient);
+    const blockIndex = bticoin.createNewTransaction(req.body.amount, req.body.sender, req.body.recipient, req.body.metanote);
     res.json({note: `Transaction will be added in block ${blockIndex}`});
 });
 
