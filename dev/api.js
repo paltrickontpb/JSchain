@@ -33,7 +33,7 @@ app.get('/mine', function(req,res){
 
     const blockHash = bticoin.hashBlock(previousBlockHash, currentBlockData, nonce);
 
-    bticoin.createNewTransaction(12.5, "00", nodeAddress);
+    bticoin.createNewTransaction(12.5, "00", nodeAddress, "Block Mining Reward");
 
     const newBlock = bticoin.createNewBlock(nonce, previousBlockHash, blockHash);
 
